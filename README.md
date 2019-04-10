@@ -23,37 +23,34 @@ C/C++ playground
 
 A set C/C++ tests, benchamarks and others.
 
-Version: 0.0.0.1 - Released: 10rd April 2019
+Version: 0.0.0.2 - Released: 10rd April 2019
 
 <a name="whats-new"></a>
-## What's new in 0.0.0.1?
+## What's new in 0.0.0.2?
 
-* Pimpl performance test
+* CRTP performance test
 
 <a name="how-to-build"></a>
 ## How to Build
 
 Coming soon...
 
-<a name="requirements"></a>
-## Requirements
-
-Coming soon...
-
-<a name="dependencies"></a>
-## Dependencies
-
-Coming soon..
-
 <a name="demos"></a>
-## Demos
+## Playgrounds
 
-Coming soon..
+* Pimpl performance test.
+
+	Test the Pimpl idiom against pure abstract class and inlined class.
+	Based on: [Blast from the Past: the Pimpl?](https://skyfromme.wordpress.com/2015/07/18/blast-from-the-past-the-pimpl/)
+
+* CRTP performance test.
+
+	Test CRTP idiom against pure abstract class. Based on: [The cost of dynamic (virtual calls) vs. static (CRTP) dispatch in C++](https://eli.thegreenplace.net/2013/12/05/the-cost-of-dynamic-virtual-calls-vs-static-crtp-dispatch-in-c)
 
 <a name="future"></a>
 ## Future features
 
-Refactor the code of the demos to adapt to the new Cross Engine code.
+* CMake files.
 
 <a name="contributing"></a>
 ## Contributing
