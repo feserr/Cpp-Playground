@@ -9,31 +9,35 @@ C/C++ playground
 - [About](#about)
 - [What's New?](#whats-new)
 - [How to Build](#how-to-build)
-- [Requirements](#requirements)
-- [Dependencies](#dependencies)
-- [Demos](#demos)
 - [Future features](#future)
 - [Contributing](#contributing)
 - [Bugs?](#bugs)
-- [Honorable mentions?](#mentions)
 - [License](#license)
 
 <a name="about"></a>
-# C/C++ playground 0.0.0.1
+# C/C++ playground 0.0.0.3
 
 A set C/C++ tests, benchamarks and others.
 
-Version: 0.0.0.2 - Released: 10rd April 2019
+Version: 0.0.0.3 - Released: 13rd April 2019
 
 <a name="whats-new"></a>
-## What's new in 0.0.0.2?
+## What's new in 0.0.0.3?
 
-* CRTP performance test
+* CMake files.
 
 <a name="how-to-build"></a>
 ## How to Build
 
-Coming soon...
+We make a folder and inside this folder we call to `cmake` specifying the build type (Debug or Release) and the type of the project.
+
+For example, we want to build all the playgrounds in `Release` mode using `unix makefiles` inside a folder called `build`, we will do:
+```bash
+mkdir build
+cd build
+cmake -DCMAKE_BUILD_TYPE=Release -G "Unix Makefiles" ..
+make
+```
 
 <a name="demos"></a>
 ## Playgrounds
@@ -50,7 +54,7 @@ Coming soon...
 <a name="future"></a>
 ## Future features
 
-* CMake files.
+* Bad template usage playground.
 
 <a name="contributing"></a>
 ## Contributing
