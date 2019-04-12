@@ -3,7 +3,7 @@
  * License: https://github.com/feserr/cpp-playground#license
  */
 
-#include "../Pimpl-performance/pimpl_class.h"
+#include "../pimpl_performance/pimpl_class.h"
 
 struct PimplClass::Impl {
   Impl(int first, int second) : first_(first), second_(second), result_(0) {}

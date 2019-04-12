@@ -3,7 +3,7 @@
  * License: https://github.com/feserr/cpp-playground#license
  */
 
-#include "../crtp-performance/dynamic_interface.h"
+#include "../crtp_performance/dynamic_interface.h"
 
 DynamicImplementation::DynamicImplementation() : counter_(0) {}
 

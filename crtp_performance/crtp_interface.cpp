@@ -3,7 +3,7 @@
  * License: https://github.com/feserr/cpp-playground#license
  */
 
-#include "../crtp-performance/crtp_interface.h"
+#include "../crtp_performance/crtp_interface.h"
 
 CRTPImplementation::CRTPImplementation() : counter_(0) {}
 

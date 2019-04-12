@@ -3,7 +3,7 @@
  * License: https://github.com/feserr/cpp-playground#license
  */
 
-#include "../Pimpl-performance/abstract_class.h"
+#include "../pimpl_performance/abstract_class.h"
 #include <memory>
 
 struct AbstractClassImpl final : public AbstractClass {
